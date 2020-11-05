@@ -1,9 +1,12 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_blocs_project/screen/login.dart';
 
-void main()=>runApp(MyApp());
+void main() => runApp(MyApp());
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Login();
+    return MaterialApp(home: Login());
   }
 }
